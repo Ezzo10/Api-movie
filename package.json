@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/Ezzo10/Api-movie#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "^2.5.0",
     "parcel": "^2.5.0"
   }
 }
