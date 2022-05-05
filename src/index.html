@@ -1,97 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
     <title>Movie App</title>
-</head>
-<body>
-   
-    
+  </head>
+  <body>
     <header>
-        
-            <h2 class="logo">Film.Hd</h2>
-        <div class="head_links">
-            <a href="#"><i class="titr_head"></i>Home</a>
-            <a href="#"><i class="titr_head"></i>Movie</a>
-            <a href="#"><i class="titr_head"></i>Film</a>
-            <a href="#"><i class="titr_head"></i>Action</a>
-        </div>
-        <form>
-            <input class="search" type="text" placeholder="Charchez" id="searche">
-        </form>
-   
-    <nav>
+      <h2 class="logo">Film.Hd</h2>
+      <div class="head_links">
+        <a href="#">Home</a>
+        <a href="#">Movie</a>
+        <a href="#">Film</a>
+        <a href="#">Action</a>
+      </div>
+      <form id="form">
+        <input class="search" type="text" placeholder="search" id="searche" />
+      </form>
+
+      <nav>
         <a class="menu-btn" href="#">Menu</a>
-  
+
         <div class="menu">
           <a class="close" href="#">X</a>
           <ul>
-
+            <div id="tags"></div>
           </ul>
         </div>
       </nav>
     </header>
 
     <div class="prend_img">
-        <div class="text_sur_img">
-            <h2>Flim<br><span>Regarde Mtn gratuiutment chez <h1 class="color-film">Films</h1></span></h2>
-            <h3></h3>
-            <a href="#projects" class="main-btn">Rregardz Mtn
-               
-            </a>
-
-        </div>
-        <div class="play">  
-        <img class="icon" src="./imgas/jok.jpg">
-    </div>
-    </div>
-    <div class="fun"><h2>Fun search</h2></div>
-    <div id="tags"></div>
-
-        <main id="main">
-           
-        </main>
-        <main id="main">
-            <div class="movie">
-            
-            <div class="movie-info">
-                <h3>movie Titre</h3>
-                <span class="note-movie">8.7</span>
-            </div>
-            <div class="overview">
-                <h3>
-                    Il s'agit du 27e movie de l'univers cinématographique Marvel et le quatrième de la phase IV. Réalisé par Jon Watts à partir d'un scénario écrit par Chris McKenna et Erik Sommers, il met en scène Tom Holland dans le rôle de Spider-Man, aux côtés de Zendaya, Benedict Cumberbatch, Willem Dafoe, Alfred Molina, Jamie Foxx, Jacob Batalon et de Marisa Tomei.
-                </h3>
-            </div>
-        </div>
-        </main>   <main id="main">
-            <div class="movie">
-            
-            <div class="movie-info">
-                <h3>movie Titre</h3>
-                <span class="note-movie">8.7</span>
-            </div>
-            <div class="overview">
-                <h3>
-                    Il s'agit du 27e movie de l'univers cinématographique Marvel et le quatrième de la phase IV. Réalisé par Jon Watts à partir d'un scénario écrit par Chris McKenna et Erik Sommers, il met en scène Tom Holland dans le rôle de Spider-Man, aux côtés de Zendaya, Benedict Cumberbatch, Willem Dafoe, Alfred Molina, Jamie Foxx, Jacob Batalon et de Marisa Tomei.
-                </h3>
-            </div>
-        </div>
-        </main>
-
-    
-
-     <main id="main"></main>
-    <div class="pagination">
-        <div class="page" id="prev">Previous Page</div>
-        <div class="current" id="current">1</div>
-        <div class="page" id="next">Next Page</div>
-
-    </div>
+      <div class="text_sur_img">
+          <h2>Flim<br><span>Watch your favorite movie from the comfort of your home now<h1 class="color-film">.HD</h1></span></h2>
+          <h3></h3>
+          <a href="#projects" class="main-btn">Watch now</a>
+      </div>
+    <a href="#projects" class="main-btn">Watch now</a>
+  </div>
      
+    </div>
+    <div class="fun">
+      <h2>Fun search</h2>
+      
+        <div id="principale">
+          <button class="btn-principale" type="button" id="btn">worst movies</button>
+          <button class="btn-principale" type="button" id="btn_2">vintage movies</button>
+          <button class="btn-principale" type="button" id="btn_3">Queecker movies</button>
+          <button class="btn-principale" type="button" id="btn_4">Longer movies</button>
+          <button class="btn-principale" type="button" id="btn_5">poor movies</button>
+        </div>
+      
+    </div>
+
+    <main id="main"></main>
+
+    <div class="pagination">
+      <div class="page" id="prev">Previous Page</div>
+      <div class="current" id="current">1</div>
+      <div class="page" id="next">Next Page</div>
+    </div>
+
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
